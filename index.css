@@ -8,8 +8,8 @@ body{
     margin: 0%;
     animation-name: anim-2;
     animation-duration: 8s;
+    animation-iteration-count: infinite;
     background-image: url('https://www.momnewsdaily.com/wp-content/uploads/2020/05/shutterstock_570763687-600x310.jpg');
- 
 }
 #div-1{
     color: lightblue;
@@ -22,6 +22,7 @@ body{
     font-family: 'Pacifico', cursive;
     animation-name: anim-1;
     animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 
