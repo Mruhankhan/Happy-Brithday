@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    animation-name: anim-2;
+    animation-duration: 8s;
+    background-image: url('https://www.momnewsdaily.com/wp-content/uploads/2020/05/shutterstock_570763687-600x310.jpg');
+ 
+}
+#div-1{
+    color: lightblue;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 600%;
+    font-family: 'Pacifico', cursive;
+    animation-name: anim-1;
+    animation-duration: 8s;
+}
+
+
+@keyframes anim-1 {
+    5%{
+        color: lightgreen;
+    }
+    10%{
+        color: skyblue;
+    }
+    15%{
+        color: lightpink;
+    }
+    20%{
+        color: lightgray;
+    }
+    25%{
+        color: blue;
+    }
+    30%{
+        color: lightblue;
+    }
+    35%{
+        transform: rotate(360deg);
+    }
+    40%{
+        transform:scale(1.4)
+    } 
+    45%{
+        transform:scale(1.7)
+    }
+    50%{
+        transform:scale(2)
+    }
+    55%{
+        transform:scale(2.3)
+    }
+    60%{
+        transform:skewY(20deg)
+    }
+    65%{
+        transform:skewY(40deg)
+    }
+}
+@keyframes anim-2{
+    50%{
+        background-image: url("https://www.pumpitupparty.com/wp-content/uploads/2020/08/happy-birthday-candles-picture-id1202880334.jpg")
+    }
+    60%{
+        background-image: url('https://www.momnewsdaily.com/wp-content/uploads/2020/05/shutterstock_570763687-600x310.jpg');
+    }
+    70%{
+        background-color: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Birthday_candles.jpg/1200px-Birthday_candles.jpg");
+    }
+    80%{
+        background-image: url("https://parade.com/wp-content/uploads/2020/05/happy-birthday-song-history.jpg");
+    }
+    90%{
+        background-image: url("https://st.depositphotos.com/1332722/1834/v/950/depositphotos_18340253-stock-illustration-vector-happy-birthday.jpg");
+    }
+    100%{
+        background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202009/Happy_Birthday__1200x768.png?ATWyFSxvtkJF5cdILDSDzpxkxsOXuAlz&size=770:433");
+    }
+}
